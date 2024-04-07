@@ -1,0 +1,18 @@
+export default function List() {
+    주요시험 = ["진동","IP","환경"];
+    return (
+<div>
+<h4 className="title">시험목록</h4>
+{시험,map((item,I) => {
+    return(
+        <div>
+        <h4>{item} 항목</h4>
+        </div>
+);
+    })}
+    </div>
+    );
+}
+
+
+    
